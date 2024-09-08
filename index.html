@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Media Queries</title>
+   <style>
+     body{
+        background-color: rgb(242, 205, 239);
+     }
+.img{
+   height: 100px;
+   width: 100px;
+   display: flexbox;
+   display: inline-block;
+
+}
+.text1{
+        text-align: center;
+        color: brown;
+        font-size: 50px;
+        font-family: cursive;
+       
+}
+   
+   .img1{
+      height: 100px;
+   width: 100px;
+   display: inline;
+   display: flexbox;
+   justify-content: center;
+  text-align: center;
+   border: 10px double navy;
+   border-radius: 10px;
+   margin: 25px;
+}
+.img1:hover{
+   transform: scale(1.05);
+   transition: 0.5s;
+}
+     .text2{
+      text-align: center;
+        color: rgb(15, 24, 109);
+        font-size: 50px;
+        justify-content: center;
+        font-family: cursive;
+     } 
+     .navbar{
+      display:flex;
+      text-align: center;
+      background-color: rgb(47, 56, 56);
+     height: 120px;
+     }
+     .img2{
+      cursor: pointer;
+      margin: 25px;
+      height: 75px;
+      width: 75px;
+     }
+      /* Mobile Devices */
+      @media screen and (max-width:500px){
+         body{
+            background-color:rgb(252, 162, 207) ;
+         }
+         .text1{
+            font-size: 30px;
+         }
+         .text2{
+            font-size: 20px;
+         }
+         .img{
+            height: 50px;
+            width: 50px;
+         }
+         .img1{
+            height: 50px;
+            width: 50px;
+            display: flex;
+            display: inline-block;
+         }
+         .img2{
+            height:40px ;
+            width: 40px;
+            display: flex;
+            display: block;
+            margin: 7px;
+         }
+         .navbar{
+            height:50px ;
+            display: flex;
+            background-color: aqua;
+         }
+      }
+     </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="./images/history1.jpeg" class="img2">
+        <img src="./images/bio1.jpg" class="img2">
+        <img src="./images/story1.jpeg" class="img2">
+        <img src="./images/joke1.jpeg" class="img2">
+        <img src="./images/edu1.jpeg" class="img2">
+        <img src="./images/history2.jpg" class="img2">
+        <img src="./images/bio2.jpg" class="img2">
+        <img src="./images/story2.jpg" class="img2">
+        <img src="./images/joke2.jpeg" class="img2">
+        <img src="./images/edu2.jpg" class="img2">
+     </div>
+      <h1 class="text1"> <img src="./images/books.jpeg"  class="img">&nbsp;&nbsp;&nbsp;
+         BOOK'S STORE &nbsp;&nbsp;&nbsp;<img src="./images/books.jpeg" class="img"></h1><hr><hr>
+
+     <h2 class="text2">Historical Books</h2>
+      <img src="./images/history1.jpeg" class="img1">
+      <img src="./images/history2.jpg" class="img1">
+      <img src="./images/history3.jpg" class="img1">
+      <img src="./images/history4.jpeg" class="img1">
+      <img src="./images/history5.jpg" class="img1">
+      <img src="./images/history6.jpeg" class="img1">
+      
+      <h2 class="text2">Biography Books</h2>
+      <img src="./images/bio1.jpg" class="img1">
+      <img src="./images/bio2.jpg" class="img1">
+      <img src="./images/bio3.webp" class="img1">
+      <img src="./images/bio4.webp" class="img1">
+      <img src="./images/bio5.jpeg" class="img1">
+      <img src="./images/bio6.jpeg" class="img1">
+     
+
+      <h2 class="text2">Story Books</h2>
+      <img src="./images/story1.jpeg" class="img1">
+      <img src="./images/story2.jpg" class="img1">
+      <img src="./images/story3.jpeg" class="img1">
+      <img src="./images/story4.webp" class="img1">
+      <img src="./images/story5.jpg" class="img1">
+      <img src="./images/story6.jpg" class="img1">
+     
+      <h2 class="text2">Joke Books</h2>
+      <img src="./images/joke1.jpeg" class="img1">
+      <img src="./images/joke2.jpeg" class="img1">
+      <img src="./images/joke3.webp" class="img1">
+      <img src="./images/joke4.webp" class="img1">
+      <img src="./images/joke5.jpg" class="img1">
+      <img src="./images/joke6.jpeg" class="img1">
+     
+      <h2 class="text2">Educational Books</h2>
+      <img src="./images/edu1.jpeg" class="img1">
+      <img src="./images/edu2.jpg" class="img1">
+      <img src="./images/edu3.jpeg" class="img1">
+      <img src="./images/edu4.jpg" class="img1">
+      <img src="./images/edu5.webp" class="img1">
+      <img src="./images/edu6.webp" class="img1">
+     
+     </body>
+  </html>  
